@@ -1,0 +1,6 @@
+.mbedbuild
+.mbed
+mbed-os/
+cmake_build/
+BUILD/
+
