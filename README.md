@@ -3,6 +3,7 @@
 This repository is tested on the following evaluation boards:
 * B-L072Z-LRWAN1
 * NUCLEO-F303K8
+* NUCLEO-F042K6
 
 Most of other evaluation boards which have an stm32 MCU should be able to execute `main.cpp` without any modifications.
 
