@@ -7,7 +7,7 @@ This repository is tested on the following evaluation boards:
 
 Most of other evaluation boards which have an stm32 MCU should be able to execute `main.cpp` without any modifications.
 
-The variable `vdda` is the power supply voltage for an A/D converter integrated in the STM32 MCU,
+The variable `vdda` is the power supply voltage (VDDA) for an A/D converter integrated in the STM32 MCU,
 which equals to the power supply voltage (VDD) for the MCU itself. You can treat `vdda` as VDD.
 
 `vdda` will keep a nearly constant value if usb-powered.  
