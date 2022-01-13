@@ -9,7 +9,7 @@ Most of other evaluation boards which have an stm32 MCU should be able to execut
 The variable `vdda` is the power supply voltage for an A/D converter integrated in the STM32 MCU,
 which equals to the power supply voltage (VDD) for the MCU itself. You can treat `vdda` as VDD.
 
-`vdda` will keep a nearly constant value if usb-powered.
+`vdda` will keep a nearly constant value if usb-powered.  
 `vdda` will gradually go down as time passes if battery-powered.
 
 ```c++
